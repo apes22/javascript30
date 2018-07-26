@@ -27,3 +27,9 @@ order for css transforms to work on elements, we need to first set a transition 
 **Thoughts:** Implemented a widget that allows a user to change the blur, padding, and background color of an image with the help of Css Variables. A few new html concepts that I haven't really worked with before were the input type of color. If you add an input type="color", the website will provide a color picker based on your OS system. Pretty neat. Also learned more about the "data-" custom attribute and how we can use Javascript to get the "data-" attributes set on an html element by calling [element].dataset. Dataset is an object that returns the "data-" attributes as objects. Example is this.dataset.sizing. We are also able to set the css property by calling [element].style.setProperty([name], [value]).
 
 **TODO**: Make the image more responsive. Currently when you add big value padding to the image, it will not stay within its container. Also would be nice to add an image upload file and edit this image. Another idea would be to allow a user to save this image to their computer.
+
+### Day 4: July 27, 2018
+
+**Today's Progress**: Array Cardio
+
+**Thoughts:** Today we worked on using array helper methods. We used the sort, map, reduce, and filter functions that I'm pretty comfortable with. The one reminder was to return either a 1 or -1 on the sort function. It was fun going to wikipedia and creating a list of data that we were interested by going into the console and accesing their page elements. This was a good refresher on the available helper methods that make code more readable.
