@@ -1,6 +1,6 @@
 # 30 Days of Javascript - Log
 
-### Day 1: July 24, 2018
+### Day 1: July 23, 2018
 
 **Today's Progress**: Implemented Javascript Drum Kit
 
@@ -12,7 +12,7 @@ as the corresponding audio html tag. I also learned about the "keydown" and "tra
 on an html tag based on its attribute value (e.g. document.querySelector(`audio[data-key="${e.keyCode}"]`). One important reminder is that in
 order for css transforms to work on elements, we need to first set a transition value to that element. Wow I learned so much from this small exercise!
 
-### Day 2: July 25, 2018
+### Day 2: July 24, 2018
 
 **Today's Progress**: Implemented Javscript and CSS Clock
 
@@ -20,7 +20,7 @@ order for css transforms to work on elements, we need to first set a transition 
 
 **TODO**: Fix issue where seconds tries to rewind back 360 degrees when it hits 60 seconds. This is probably happening for minutes and hands as well.
 
-### Day 3: July 26, 2018
+### Day 3: July 25, 2018
 
 **Today's Progress**: CSS Variables
 
@@ -28,8 +28,16 @@ order for css transforms to work on elements, we need to first set a transition 
 
 **TODO**: Make the image more responsive. Currently when you add big value padding to the image, it will not stay within its container. Also would be nice to add an image upload file and edit this image. Another idea would be to allow a user to save this image to their computer.
 
-### Day 4: July 27, 2018
+### Day 4: July 26, 2018
 
 **Today's Progress**: Array Cardio
 
 **Thoughts:** Today we worked on using array helper methods. We used the sort, map, reduce, and filter functions that I'm pretty comfortable with. The one reminder was to return either a 1 or -1 on the sort function. It was fun going to wikipedia and creating a list of data that we were interested by going into the console and accesing their page elements. This was a good refresher on the available helper methods that make code more readable.
+
+### Day 5: July 27, 2018
+
+**Today's Progress**: Flex Panel Gallery
+
+**Thoughts:** This was a really fun exercise to work on! We implemented an accordion panel galery using flexbox. I was able to practice more with flex-grow as well as transitions and transform properties. We used the transform: translateY() to move p elements in an out of the page. We used flex-grow to increase the width of a div.
+
+TODO: One cool thing to try is to try to do something similar without using javascript and use something like focus. This however, takes away the ability to have more than one panel open.
