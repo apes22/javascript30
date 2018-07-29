@@ -49,3 +49,9 @@ TODO: One cool thing to try is to try to do something similar without using java
 **Thoughts:** Today we implemented a search form that provides suggestions based on text input change. We practiced regex expressions to filter fetched data and we also used template literals to create list elements for each filtered data.
 
 TODO: Change the suggestion list based on closest location using the Geolocation API.
+
+### Day 7: July 29, 2018
+
+**Today's Progress**: Array Cardio Day 2
+
+**Thoughts:** Today we practiced using more array helper methods. Some, every, find, and findIndex. THe last question asked us to remove an element from the array. I immediately thought of 3 solutions. One was to use splice, but that would alter the data. Another, would be to use filter which returns a new array without the element we want. The third was to use the slice along with the rest operator to create a new array without having the index we are trying to remove. I was so excited to have thought about different solutions.
