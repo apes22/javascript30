@@ -55,3 +55,9 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Today's Progress**: Array Cardio Day 2
 
 **Thoughts:** Today we practiced using more array helper methods. Some, every, find, and findIndex. THe last question asked us to remove an element from the array. I immediately thought of 3 solutions. One was to use splice, but that would alter the data. Another, would be to use filter which returns a new array without the element we want. The third was to use the slice along with the rest operator to create a new array without having the index we are trying to remove. I was so excited to have thought about different solutions.
+
+### Day 8: July 29, 2018
+
+**Today's Progress**: Fun with HTML5 Canvas
+
+**Thoughts:** Today we implemented a webapp that let's a user draw in a canvas by holding down the mouse and moving it around the page. Most of the concepts were very new. For example, mousemove, mousedown, mouseup, and mouseout event listeners were new to me, but now I know they are available. The properties for the context of the canvas to actually draw on the canvas is also something newish to me. Methods like beginPath(), moveTo(), lineTo(), and stroke() are things that I probably will have to google search to remember how to draw on a canvas as well as strokeStyle involving hue. Overall, this was a neat little exercise that showed how we can use the html5 canvas tag to draw on a webpage.
