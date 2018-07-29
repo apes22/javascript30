@@ -7,6 +7,10 @@ fetch(endpoint)
   .then(response => response.json())
   .then(data => cities.push(...data));
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 function getCities(cityOrState, cities) {
   const regex = new RegExp(cityOrState, "gi");
 
@@ -32,7 +36,7 @@ function matchInput() {
       );
       return `<li>
         <span class="name">${cityName}, ${stateName}</span> 
-        <span class="population">${place.population}</span>
+        <span class="population">${numberWithCommas(place.population)}</span>
         </li>`;
     })
     .join("");
