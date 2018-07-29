@@ -41,3 +41,11 @@ order for css transforms to work on elements, we need to first set a transition 
 **Thoughts:** This was a really fun exercise to work on! We implemented an accordion panel galery using flexbox. I was able to practice more with flex-grow as well as transitions and transform properties. We used the transform: translateY() to move p elements in an out of the page. We used flex-grow to increase the width of a div.
 
 TODO: One cool thing to try is to try to do something similar without using javascript and use something like focus. This however, takes away the ability to have more than one panel open.
+
+### Day 6: July 28, 2018
+
+**Today's Progress**: Type Ahead
+
+**Thoughts:** Today we implemented a search form that provides suggestions based on text input change. We practiced regex expressions to filter fetched data and we also used template literals to create list elements for each filtered data.
+
+TODO: Change the suggestion list based on closest location using the Geolocation API.
