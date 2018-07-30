@@ -61,3 +61,9 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Today's Progress**: Fun with HTML5 Canvas
 
 **Thoughts:** Today we implemented a webapp that let's a user draw in a canvas by holding down the mouse and moving it around the page. Most of the concepts were very new. For example, mousemove, mousedown, mouseup, and mouseout event listeners were new to me, but now I know they are available. The properties for the context of the canvas to actually draw on the canvas is also something newish to me. Methods like beginPath(), moveTo(), lineTo(), and stroke() are things that I probably will have to google search to remember how to draw on a canvas as well as strokeStyle involving hue. Overall, this was a neat little exercise that showed how we can use the html5 canvas tag to draw on a webpage.
+
+### Day 9: July 30, 2018
+
+**Today's Progress**: Dev Tools Domination
+
+**Thoughts:** Today we practiced using different methods for the console that will help us troubleshoot our application. console.time was a new one for me. This method gives the time of how long an action takes to complete. I have used the rest of the methods that Wes shared with us.
