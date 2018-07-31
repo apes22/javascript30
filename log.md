@@ -67,3 +67,9 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Today's Progress**: Dev Tools Domination
 
 **Thoughts:** Today we practiced using different methods for the console that will help us troubleshoot our application. console.time was a new one for me. This method gives the time of how long an action takes to complete. I have used the rest of the methods that Wes shared with us.
+
+### Day 10: July 30, 2018
+
+**Today's Progress**: Hold Shift and Check Checkboxes
+
+**Thoughts:** We implemente the way Google inbox handles selecting multiple elements when a user holds down the shift button. Even though I wasn't able to figure out on my own initially, I knew that we needed a way of saving the last checked element. I was however, able to optimize the solution by creating one single click event listener on the parent div which was the inbox container instead of creating event listeners for each checkbox.
