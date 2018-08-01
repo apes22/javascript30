@@ -72,4 +72,10 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 
 **Today's Progress**: Hold Shift and Check Checkboxes
 
-**Thoughts:** We implemente the way Google inbox handles selecting multiple elements when a user holds down the shift button. Even though I wasn't able to figure out on my own initially, I knew that we needed a way of saving the last checked element. I was however, able to optimize the solution by creating one single click event listener on the parent div which was the inbox container instead of creating event listeners for each checkbox.
+**Thoughts:** We implemented the way Google inbox handles selecting multiple elements when a user holds down the shift button. Even though I wasn't able to figure out on my own initially, I knew that we needed a way of saving the last checked element. I was however, able to optimize the solution by creating one single click event listener on the parent div which was the inbox container instead of creating event listeners for each checkbox.
+
+### Day 11: August 1, 2018
+
+**Today's Progress**: Key Sequence Detection
+
+**Thoughts:** We implemented a way to add items to the windows when a user correctly inputs the correct secret code (magic word). We use the "keyup" event listener on the window to listen for key releases and save the recet pressed keys on an array. We only saved the number of recent presses that matched the length of the magic word so the array didn't take up unecessary space. This was a really short, but fun exercise.
