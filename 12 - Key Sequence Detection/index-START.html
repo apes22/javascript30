@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+
+<body>
+  <script>
+    const recentPressed = [];
+    const magicWord = "maribel";
+
+    window.addEventListener("keyup", function (e) {
+      recentPressed.push(e.key);
+      if (recentKeyPressed.length > magicWord.length) {
+        recentKeyPressed.shift();
+      }
+      if (recentKeyPressed.join("") === magicWord) {
+        cornify_add();
+      }
+    })
+  </script>
+</body>
+
+</html>
