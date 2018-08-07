@@ -79,3 +79,11 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Today's Progress**: Key Sequence Detection
 
 **Thoughts:** We implemented a way to add items to the windows when a user correctly inputs the correct secret code (magic word). We use the "keyup" event listener on the window to listen for key releases and save the recet pressed keys on an array. We only saved the number of recent presses that matched the length of the magic word so the array didn't take up unecessary space. This was a really short, but fun exercise.
+
+### Day 12: August 7, 2018
+
+**Today's Progress**: Custom Video Player
+
+**Thoughts:** In this exercise, we implemented the controls for the HTML5 video tag. The video tag, by default, gives you controls, but we wanted to create our own custom controls. Through this example, we implemented the start/pause, skip back/forward, volume, and playback speed functionalities. I learned about the video methods like pause(), play(), playbackRate(), volume(). I also learned about some of its properties like currentTIme and duration. It was relatively easy exericse. However, if you don't know the video properties and available methods, then it'll take more time to come up with a solution.
+
+**TODO**: Add a fullscreen button and the functionality to make the video fullscreen when button is clicked.
