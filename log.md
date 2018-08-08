@@ -95,3 +95,9 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Thoughts:** This exercise was a tough one because I didn't know some of the properties for the windows dom element as well as image elements. Now I know that we have available the scrollTop, height, innerHeight, and scrollY properties to help figure out where we are currently at the page. I might need to come back to this exercise.
 
 **TODO**: Use the Intersection Observer API to implement this. The IntersectionObserver API lets you register a callback function which is executed whenever an element being monitored enters or exits another element, or the viewport.
+
+### Day 14: August 8, 2018
+
+**Today's Progress**: JS Reference VS Copy
+
+**Thoughts:** I loved this exercise! I know the different ways to copy an object. For an array, we can use slice, Array.from(), concat, and spread operator. For other objects, we can use the spread operator or the Object.assign method. A nice refresher!
