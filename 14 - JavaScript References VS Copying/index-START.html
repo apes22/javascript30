@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS Reference VS Copy</title>
+</head>
+
+<body>
+
+  <script>
+    // start with strings, numbers and booleans
+    let name = "Maribel";
+    let name2 = name;
+    console.log(name, name2);
+
+    name = "Changed"
+    console.log(name, name2);
+
+
+    // Let's say we have an array
+    const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+
+
+    // and we want to make a copy of it.
+    const team = players.slice();
+    const team2 = players.concat([]);
+    const team3 = [...players];
+    const team4 = Array.from(players);
+
+
+    // with Objects
+    const person = {
+      name: 'Wes Bos',
+      age: 80
+    };
+    // how do we take a copy instead?
+    const person2 = Object.assign({}, person);
+    const person3 = { ...person };
+
+    // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+
+  </script>
+
+</body>
+
+</html>
