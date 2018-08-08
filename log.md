@@ -87,3 +87,11 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Thoughts:** In this exercise, we implemented the controls for the HTML5 video tag. The video tag, by default, gives you controls, but we wanted to create our own custom controls. Through this example, we implemented the start/pause, skip back/forward, volume, and playback speed functionalities. I learned about the video methods like pause(), play(), playbackRate(), volume(). I also learned about some of its properties like currentTIme and duration. It was relatively easy exericse. However, if you don't know the video properties and available methods, then it'll take more time to come up with a solution.
 
 **TODO**: Add a fullscreen button and the functionality to make the video fullscreen when button is clicked.
+
+### Day 13: August 8, 2018
+
+**Today's Progress**: Slide in on Scroll
+
+**Thoughts:** This exercise was a tough one because I didn't know some of the properties for the windows dom element as well as image elements. Now I know that we have available the scrollTop, height, innerHeight, and scrollY properties to help figure out where we are currently at the page. I might need to come back to this exercise.
+
+**TODO**: Use the Intersection Observer API to implement this. The IntersectionObserver API lets you register a callback function which is executed whenever an element being monitored enters or exits another element, or the viewport.
