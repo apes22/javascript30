@@ -101,3 +101,11 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Today's Progress**: JS Reference VS Copy
 
 **Thoughts:** I loved this exercise! I know the different ways to copy an object. For an array, we can use slice, Array.from(), concat, and spread operator. For other objects, we can use the spread operator or the Object.assign method. A nice refresher!
+
+### Day 15: August 8, 2018
+
+**Today's Progress**: Locale Storage
+
+**Thoughts:** Woo! I finally get to work with local storage! We saved our list items inside an array and assigned it to our local storage as a key/value pair. With the help of JSON.parse and JSON.stringify, we ar eable to save our data as strings in local storage and parse it back as object to use it in our javascript code. Looking forward to using this on upcoming projects.
+
+TODO: Create a clear all, check all, and uncheck all buttons.
