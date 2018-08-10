@@ -109,3 +109,9 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 **Thoughts:** Woo! I finally get to work with local storage! We saved our list items inside an array and assigned it to our local storage as a key/value pair. With the help of JSON.parse and JSON.stringify, we ar eable to save our data as strings in local storage and parse it back as object to use it in our javascript code. Looking forward to using this on upcoming projects.
 
 TODO: Create a clear all, check all, and uncheck all buttons.
+
+### Day 16: August 10, 2018
+
+**Today's Progress**: Mouse Move Shadow
+
+**Thoughts:** This exercise was a toughy! I still don't quite understand the offsetLeft and offsetTop for an element. I want to come back and mess with the offset values. I did learn how we can style an element's text shadow for an element using javascript.
