@@ -121,3 +121,9 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 **Today's Progress**: Sort Without Articles
 
 **Thoughts:** I loved this exercise! The goal of this exercise was to sort an array of band names in alphabetical order without using the first article word. I came up with two solutions. The first was using the includes array method to check if the first word of the string contained an article. If it did, then we would use the slice method to remove the first word of the string. The second solution was using the string replace method to remove the first word of the band name if it was an article. Even though I didn't come up with the optimal regex expression, I still got halfways there and made my solution work. Next time a similar problem comes up, I'll be able to remember the regex expresion used to get the first word of a string.
+
+### Day 18: August 11, 2018
+
+**Today's Progress**: Adding Up Times with Reduce
+
+**Thoughts:** I loved this exercise! The goal of this exercise was to sort an array of band names in alphabetical order without using the first article word. I came up with two solutions. The first was using the includes array method to check if the first word of the string contained an article. If it did, then we would use the slice method to remove the first word of the string. The second solution was using the string replace method to remove the first word of the band name if it was an article. Even though I didn't come up with the optimal regex expression, I still got halfways there and made my solution work. Next time a similar problem comes up, I'll be able to remember the regex expresion used to get the first word of a string.
