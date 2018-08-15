@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding JavaScript's Capture</title>
+</head>
+
+<body class="bod">
+
+  <div class="one box">
+    <div class="two box">
+      <div class="three box">
+      </div>
+    </div>
+  </div>
+
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    div {
+      width: 100%;
+      padding: 100px;
+    }
+
+    .one {
+      background: thistle;
+    }
+
+    .two {
+      background: mistyrose;
+    }
+
+    .three {
+      background: coral;
+    }
+  </style>
+
+  <button></button>
+
+  <script>
+    function logText(e) {
+      //Stop Event Propagation
+      // e.stopPropagation();
+      console.log(this.classList.value);
+    }
+
+    //Reviewed capture flag, once flag, ad e.stopPropagation method
+    const boxes = document.querySelectorAll(".box");
+    boxes.forEach(box => box.addEventListener("click", logText, { capture: true, once: true }));
+  </script>
+</body>
+
+</html>
+
+cl
