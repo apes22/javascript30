@@ -127,3 +127,9 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 **Today's Progress**: Adding Up Times with Reduce
 
 **Thoughts:** I loved this exercise! The goal of this exercise was to sort an array of band names in alphabetical order without using the first article word. I came up with two solutions. The first was using the includes array method to check if the first word of the string contained an article. If it did, then we would use the slice method to remove the first word of the string. The second solution was using the string replace method to remove the first word of the band name if it was an article. Even though I didn't come up with the optimal regex expression, I still got halfways there and made my solution work. Next time a similar problem comes up, I'll be able to remember the regex expresion used to get the first word of a string.
+
+### Day 19: August 15, 2018
+
+**Today's Progress**: Event Capture, Propagation, Bubbling and Once.
+
+**Thoughts:** This exercise helped me visualize how event bubbling and capturing work. Event Delagation is when an event handler is added to a parent element and the listener wil trigger anytime the event is triggered on the descendants. Event Bubbling is a method for how events in the events DOM API are propagated. In bubbling, the event is first captured and handled by the innermost element and then propagated to the outer elements In Event Capture, the event is first captured and handled by the outermost element and then propagated to the inner elements. Once is a way of removing an event listener afer an event has been triggered.
