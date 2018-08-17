@@ -133,3 +133,9 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 **Today's Progress**: Event Capture, Propagation, Bubbling and Once.
 
 **Thoughts:** This exercise helped me visualize how event bubbling and capturing work. Event Delagation is when an event handler is added to a parent element and the listener wil trigger anytime the event is triggered on the descendants. Event Bubbling is a method for how events in the events DOM API are propagated. In bubbling, the event is first captured and handled by the innermost element and then propagated to the outer elements In Event Capture, the event is first captured and handled by the outermost element and then propagated to the inner elements. Once is a way of removing an event listener afer an event has been triggered.
+
+### Day 20: August 16, 2018
+
+**Today's Progress**: Sticky Nav
+
+**Thoughts:** In this exercise, we implemented a sticky nav when the nav reaches the top of th window. This was my first time using the fixed position. We used the window.scrollY value and offsetTop of the navigation element to figure out when the navigation actually got to top of the window. We added a fixed-nav class to the nav element to update the position from relative to fixed. We also used the offsetHeight value of the nav element to add top padding to the body to account for the fact that the nav no longer is taking up space.
