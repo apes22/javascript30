@@ -139,3 +139,9 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 **Today's Progress**: Sticky Nav
 
 **Thoughts:** In this exercise, we implemented a sticky nav when the nav reaches the top of th window. This was my first time using the fixed position. We used the window.scrollY value and offsetTop of the navigation element to figure out when the navigation actually got to top of the window. We added a fixed-nav class to the nav element to update the position from relative to fixed. We also used the offsetHeight value of the nav element to add top padding to the body to account for the fact that the nav no longer is taking up space.
+
+### Day 21: August 18 2018
+
+**Today's Progress**: Follow Along Link Highlighter
+
+**Thoughts:** In this exercise, we implemented the functionality of highlighting links when on hover. We actually added an event listener on mouseenter for each link. The trick to getting the highlight element, which is an absolute span, to sit right behind the link element, was to make the highlight element the same size of the link element. We did this by getting the height and width of the link element using the getBoundingClientRect(). We also translated the position of the highlight to be the same as the link element by setting the transform to translate to where the link element is positioned. Again we got this getting by the top and left values from the object returned from getBoundingClientRect(). To take an account that the top and left are not always from the top of the window, we added window.scrollY to the top value and window.scrollX to the left value. This was a really fun exercise and excited to use this type of solution in the future.
