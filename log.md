@@ -151,3 +151,11 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 **Today's Progress**: Stripe Follow Along Nav
 
 **Thoughts:** In this exercise, we implemented the follow along nav background functionality that Stripe has on their website. This was a continuation of exercise 22, which was the follow along link higlighter functionality. This exercise already had alot of the css we needed, so we mainly had to implement the event handlers on mouseleave and enter for each nav link in the site. The hardest issue for me here was debugging a syntax error when setting the value of the width of an element using string literal. I had one extra space afer the numerical value an the px suffix. This threw me off for a while and finally realized my issue when I compared with the solution. Next time, I will be console logging the values of the literals instead.
+
+### Day 23: August 20 2018
+
+**Today's Progress**: Click and Drag
+
+**Thoughts:** This exercise was probably the hardest so far. I had to look at the solution because I did not know where to start with setting up my flags and which event listeners I needed to use. So I am going to give it a shot at explaining the solution here! So we want to be able to keep a reference of when the mouse is actually being held down. When we trigger a mouseleave and mouseup on the slider, we want to set our flag of isDown to false. However, when trigger a mousedown on the slider, we want to set this flag to true and also save our current startX (which is equal to e.pageX - the sliders offsetLeft) and the offsetLeft (which is the slider's scrollLeft value). When a mousemove is triggered, here is when try to actually change the scroll x value in the page. I.e. drag our page to where want to move it to. If the down flag is true, then we want to figure out our scrollLeft value (scrollLeft - walk) for our slider by using the saved startX and scrollLeft values generated in function called by the mousedown handler. (x = e.pageX - the slider's offsetLeft and walk is equal to (x-startX) \* 3. In all these 4 event listeners we want to add or remove the active class from our slider, accordingly.
+
+TODO: Come back and try to implement again.
