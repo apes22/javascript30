@@ -145,3 +145,9 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 **Today's Progress**: Follow Along Link Highlighter
 
 **Thoughts:** In this exercise, we implemented the functionality of highlighting links when on hover. We actually added an event listener on mouseenter for each link. The trick to getting the highlight element, which is an absolute span, to sit right behind the link element, was to make the highlight element the same size of the link element. We did this by getting the height and width of the link element using the getBoundingClientRect(). We also translated the position of the highlight to be the same as the link element by setting the transform to translate to where the link element is positioned. Again we got this getting by the top and left values from the object returned from getBoundingClientRect(). To take an account that the top and left are not always from the top of the window, we added window.scrollY to the top value and window.scrollX to the left value. This was a really fun exercise and excited to use this type of solution in the future.
+
+### Day 22: August 20 2018
+
+**Today's Progress**: Stripe Follow Along Nav
+
+**Thoughts:** In this exercise, we implemented the follow along nav background functionality that Stripe has on their website. This was a continuation of exercise 22, which was the follow along link higlighter functionality. This exercise already had alot of the css we needed, so we mainly had to implement the event handlers on mouseleave and enter for each nav link in the site. The hardest issue for me here was debugging a syntax error when setting the value of the width of an element using string literal. I had one extra space afer the numerical value an the px suffix. This threw me off for a while and finally realized my issue when I compared with the solution. Next time, I will be console logging the values of the literals instead.
