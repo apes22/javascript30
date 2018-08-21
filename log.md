@@ -159,3 +159,11 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 **Thoughts:** This exercise was probably the hardest so far. I had to look at the solution because I did not know where to start with setting up my flags and which event listeners I needed to use. So I am going to give it a shot at explaining the solution here! So we want to be able to keep a reference of when the mouse is actually being held down. When we trigger a mouseleave and mouseup on the slider, we want to set our flag of isDown to false. However, when trigger a mousedown on the slider, we want to set this flag to true and also save our current startX (which is equal to e.pageX - the sliders offsetLeft) and the offsetLeft (which is the slider's scrollLeft value). When a mousemove is triggered, here is when try to actually change the scroll x value in the page. I.e. drag our page to where want to move it to. If the down flag is true, then we want to figure out our scrollLeft value (scrollLeft - walk) for our slider by using the saved startX and scrollLeft values generated in function called by the mousedown handler. (x = e.pageX - the slider's offsetLeft and walk is equal to (x-startX) \* 3. In all these 4 event listeners we want to add or remove the active class from our slider, accordingly.
 
 TODO: Come back and try to implement again.
+
+### Day 24: August 21 2018
+
+**Today's Progress**: Geolocation
+
+**Thoughts:** I'm sad I couldn't get the simulator to run the Location. However, I think this has to do with the security vulnerability when running on local host. I tried running the app on my phone, but it still was not allowing to share the location with my app. This is my first time opening up xCode to run a simulator. I also couldn't get the inspector to run on Safari for my simulator. It was nice to know about the watchPosition method on the window's geolocation object. Will come in handy one day.
+
+TODO: Get inspector to run on Safari for a simulator on XCode. Get the location to work on the Simulator.
