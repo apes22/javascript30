@@ -173,3 +173,11 @@ TODO: Get inspector to run on Safari for a simulator on XCode. Get the location 
 **Today's Progress**: Video Speed Controller
 
 **Thoughts:** I almost implemented this all on my own! The goal of this exercise was to add functionality to the custom speed bar to update the video's playback rate. I was able to add an event handler when a user clicks and drags the mouse on the speed bar. I used the event's pageY, the speed's offsetTop, and offsetHeight to get the current percentage of the speed bar. Getting the playbackRate was pretty straightforward. We used our max and min to get the actual value instead of it being a decimal.
+
+### Day 26: August 29 2018
+
+**Today's Progress**: Native Speech Recognition
+
+**Thoughts:** This exercise was so cool! I didn't realize how easy it was to use speechRecognition on the browser. We practiced setting a recognition object and adding event listeners that get the speech result as well as starting the recognition up again when someone pauses from speaking. It was definitely a good practice run and excited to use this functionality in the future.
+
+TODO: Create a react app that gets the weather for you when you ask for it. "Maribel Get the Wather for {City and State}";
