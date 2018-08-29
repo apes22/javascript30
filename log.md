@@ -167,3 +167,9 @@ TODO: Come back and try to implement again.
 **Thoughts:** I'm sad I couldn't get the simulator to run the Location. However, I think this has to do with the security vulnerability when running on local host. I tried running the app on my phone, but it still was not allowing to share the location with my app. This is my first time opening up xCode to run a simulator. I also couldn't get the inspector to run on Safari for my simulator. It was nice to know about the watchPosition method on the window's geolocation object. Will come in handy one day.
 
 TODO: Get inspector to run on Safari for a simulator on XCode. Get the location to work on the Simulator.
+
+### Day 25: August 29 2018
+
+**Today's Progress**: Video Speed Controller
+
+**Thoughts:** I almost implemented this all on my own! The goal of this exercise was to add functionality to the custom speed bar to update the video's playback rate. I was able to add an event handler when a user clicks and drags the mouse on the speed bar. I used the event's pageY, the speed's offsetTop, and offsetHeight to get the current percentage of the speed bar. Getting the playbackRate was pretty straightforward. We used our max and min to get the actual value instead of it being a decimal.
