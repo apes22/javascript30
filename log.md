@@ -181,3 +181,9 @@ TODO: Get inspector to run on Safari for a simulator on XCode. Get the location 
 **Thoughts:** This exercise was so cool! I didn't realize how easy it was to use speechRecognition on the browser. We practiced setting a recognition object and adding event listeners that get the speech result as well as starting the recognition up again when someone pauses from speaking. It was definitely a good practice run and excited to use this functionality in the future.
 
 TODO: Create a react app that gets the weather for you when you ask for it. "Maribel Get the Wather for {City and State}";
+
+### Day 27: September 2, 2018
+
+**Today's Progress**: Speech Synthesis
+
+**Thoughts:** This exercise was also a cool one! The SpeechSynthesisUtterance API for modern browsers gives you the ability to set a voice so that it speaks the contents from the browser. So it's basically the opposite of speechRecognition. We set an event lisenter on the the speechSynthesis object for whenever the voices changed, which is usually once the voices supported by the browser have fully loaded. There were a few important methods for the speechSynthesis object that we had to know in order to make this app work. We had to know the cancel() and speak() method. Other than that regular event handlers for the buttons and dropdown options were set to update the voices and get the voice to stop/start speaking. This will be a cool API to work with in the future;
