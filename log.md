@@ -193,3 +193,9 @@ TODO: Create a react app that gets the weather for you when you ask for it. "Mar
 **Today's Progress**: Countdown Timer
 
 **Thoughts:** Even though I had already done this before, it still took me a lot of effor to get this countdown timer completed. The main difference between this solution and my previous implementation is that we don't keep track of the seconds left. We actually use Date.now() to keep track of the current time in seconds. Other than the implementation was similar to what I have done in th epast.
+
+### Day 29: September 4, 2018
+
+**Today's Progress**: Wack A Mole
+
+**Thoughts:** This one was an easy exercise! We used the setTimeout method to implemenet the peep method which moves the mole up and down its container. There was not much new to learn from this besides first time using the parentNode.classList object for each mole.
