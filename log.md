@@ -187,3 +187,9 @@ TODO: Create a react app that gets the weather for you when you ask for it. "Mar
 **Today's Progress**: Speech Synthesis
 
 **Thoughts:** This exercise was also a cool one! The SpeechSynthesisUtterance API for modern browsers gives you the ability to set a voice so that it speaks the contents from the browser. So it's basically the opposite of speechRecognition. We set an event lisenter on the the speechSynthesis object for whenever the voices changed, which is usually once the voices supported by the browser have fully loaded. There were a few important methods for the speechSynthesis object that we had to know in order to make this app work. We had to know the cancel() and speak() method. Other than that regular event handlers for the buttons and dropdown options were set to update the voices and get the voice to stop/start speaking. This will be a cool API to work with in the future;
+
+### Day 28: September 3, 2018
+
+**Today's Progress**: Countdown Timer
+
+**Thoughts:** Even though I had already done this before, it still took me a lot of effor to get this countdown timer completed. The main difference between this solution and my previous implementation is that we don't keep track of the seconds left. We actually use Date.now() to keep track of the current time in seconds. Other than the implementation was similar to what I have done in th epast.
