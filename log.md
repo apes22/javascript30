@@ -6,7 +6,7 @@
 
 **Thoughts:** On my first day, I took it easy and first watched the video on how Wes implemented the Drumk Kit. This helped me get
 familiarized with the course layout. There were alot of new concepts that I hadn't learned before like the ability to add my own
-attributes to html tags by simplying adding "data-" and the name of the new attribute. This allowed us to set key values to our key divs.
+attributes to html tags by simply adding "data-" and the name of the new attribute. This allowed us to set key values to our key divs.
 These custom attributes can be shared between different html tags. In this exercise, we added the same data-key value to the key div as well
 as the corresponding audio html tag. I also learned about the "keydown" and "transitionend" event listeners and ways of doing a query selector
 on an html tag based on its attribute value (e.g. document.querySelector(`audio[data-key="${e.keyCode}"]`). One important reminder is that in
@@ -38,7 +38,7 @@ order for css transforms to work on elements, we need to first set a transition 
 
 **Today's Progress**: Flex Panel Gallery
 
-**Thoughts:** This was a really fun exercise to work on! We implemented an accordion panel galery using flexbox. I was able to practice more with flex-grow as well as transitions and transform properties. We used the transform: translateY() to move p elements in an out of the page. We used flex-grow to increase the width of a div.
+**Thoughts:** This was a really fun exercise to work on! We implemented an accordion panel gallery using flexbox. I was able to practice more with flex-grow as well as transitions and transform properties. We used the transform: translateY() to move p elements in an out of the page. We used flex-grow to increase the width of a div.
 
 TODO: One cool thing to try is to try to do something similar without using javascript and use something like focus. This however, takes away the ability to have more than one panel open.
 
@@ -78,13 +78,13 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 
 **Today's Progress**: Key Sequence Detection
 
-**Thoughts:** We implemented a way to add items to the windows when a user correctly inputs the correct secret code (magic word). We use the "keyup" event listener on the window to listen for key releases and save the recet pressed keys on an array. We only saved the number of recent presses that matched the length of the magic word so the array didn't take up unecessary space. This was a really short, but fun exercise.
+**Thoughts:** We implemented a way to add items to the windows when a user correctly inputs the correct secret code (magic word). We use the "keyup" event listener on the window to listen for key releases and save the recent pressed keys on an array. We only saved the number of recent presses that matched the length of the magic word so the array didn't take up unecessary space. This was a really short, but fun exercise.
 
 ### Day 12: August 7, 2018
 
 **Today's Progress**: Custom Video Player
 
-**Thoughts:** In this exercise, we implemented the controls for the HTML5 video tag. The video tag, by default, gives you controls, but we wanted to create our own custom controls. Through this example, we implemented the start/pause, skip back/forward, volume, and playback speed functionalities. I learned about the video methods like pause(), play(), playbackRate(), volume(). I also learned about some of its properties like currentTIme and duration. It was relatively easy exericse. However, if you don't know the video properties and available methods, then it'll take more time to come up with a solution.
+**Thoughts:** In this exercise, we implemented the controls for the HTML5 video tag. The video tag, by default, gives you controls, but we wanted to create our own custom controls. Through this example, we implemented the start/pause, skip back/forward, volume, and playback speed functionalities. I learned about the video methods like pause(), play(), playbackRate(), volume(). I also learned about some of its properties like currentTime and duration. It was relatively easy exericse. However, if you don't know the video properties and available methods, then it'll take more time to come up with a solution.
 
 **TODO**: Add a fullscreen button and the functionality to make the video fullscreen when button is clicked.
 
@@ -106,7 +106,7 @@ TODO: Change the suggestion list based on closest location using the Geolocation
 
 **Today's Progress**: Locale Storage
 
-**Thoughts:** Woo! I finally get to work with local storage! We saved our list items inside an array and assigned it to our local storage as a key/value pair. With the help of JSON.parse and JSON.stringify, we ar eable to save our data as strings in local storage and parse it back as object to use it in our javascript code. Looking forward to using this on upcoming projects.
+**Thoughts:** Woo! I finally get to work with local storage! We saved our list items inside an array and assigned it to our local storage as a key/value pair. With the help of JSON.parse and JSON.stringify, we are able to save our data as strings in local storage and parse it back as object to use it in our javascript code. Looking forward to using this on upcoming projects.
 
 TODO: Create a clear all, check all, and uncheck all buttons.
 
@@ -138,7 +138,7 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 
 **Today's Progress**: Sticky Nav
 
-**Thoughts:** In this exercise, we implemented a sticky nav when the nav reaches the top of th window. This was my first time using the fixed position. We used the window.scrollY value and offsetTop of the navigation element to figure out when the navigation actually got to top of the window. We added a fixed-nav class to the nav element to update the position from relative to fixed. We also used the offsetHeight value of the nav element to add top padding to the body to account for the fact that the nav no longer is taking up space.
+**Thoughts:** In this exercise, we implemented a sticky nav when the nav reaches the top of the window. This was my first time using the fixed position. We used the window.scrollY value and offsetTop of the navigation element to figure out when the navigation actually got to top of the window. We added a fixed-nav class to the nav element to update the position from relative to fixed. We also used the offsetHeight value of the nav element to add top padding to the body to account for the fact that the nav no longer is taking up space.
 
 ### Day 21: August 18 2018
 
@@ -156,7 +156,7 @@ TODO: Create a clear all, check all, and uncheck all buttons.
 
 **Today's Progress**: Click and Drag
 
-**Thoughts:** This exercise was probably the hardest so far. I had to look at the solution because I did not know where to start with setting up my flags and which event listeners I needed to use. So I am going to give it a shot at explaining the solution here! So we want to be able to keep a reference of when the mouse is actually being held down. When we trigger a mouseleave and mouseup on the slider, we want to set our flag of isDown to false. However, when trigger a mousedown on the slider, we want to set this flag to true and also save our current startX (which is equal to e.pageX - the sliders offsetLeft) and the offsetLeft (which is the slider's scrollLeft value). When a mousemove is triggered, here is when try to actually change the scroll x value in the page. I.e. drag our page to where want to move it to. If the down flag is true, then we want to figure out our scrollLeft value (scrollLeft - walk) for our slider by using the saved startX and scrollLeft values generated in function called by the mousedown handler. (x = e.pageX - the slider's offsetLeft and walk is equal to (x-startX) \* 3. In all these 4 event listeners we want to add or remove the active class from our slider, accordingly.
+**Thoughts:** This exercise was probably the hardest so far. I had to look at the solution because I did not know where to start with setting up my flags and which event listeners I needed to use. So I am going to give it a shot at explaining the solution here! So we want to be able to keep a reference of when the mouse is actually being held down. When we trigger a mouseleave and mouseup on the slider, we want to set our flag of isDown to false. However, when trigger a mousedown on the slider, we want to set this flag to true and also save our current startX (which is equal to e.pageX - the sliders offsetLeft) and the offsetLeft (which is the slider's scrollLeft value). When a mousemove is triggered, here is when we try to actually change the scroll x value in the page. I.e. drag our page to where want to move it to. If the down flag is true, then we want to figure out our scrollLeft value (scrollLeft - walk) for our slider by using the saved startX and scrollLeft values generated in function called by the mousedown handler. (x = e.pageX - the slider's offsetLeft and walk is equal to (x-startX) \* 3. In all these 4 event listeners we want to add or remove the active class from our slider, accordingly.
 
 TODO: Come back and try to implement again.
 
@@ -180,7 +180,7 @@ TODO: Get inspector to run on Safari for a simulator on XCode. Get the location 
 
 **Thoughts:** This exercise was so cool! I didn't realize how easy it was to use speechRecognition on the browser. We practiced setting a recognition object and adding event listeners that get the speech result as well as starting the recognition up again when someone pauses from speaking. It was definitely a good practice run and excited to use this functionality in the future.
 
-TODO: Create a react app that gets the weather for you when you ask for it. "Maribel Get the Wather for {City and State}";
+TODO: Create a react app that gets the weather for you when you ask for it. "Maribel Get the Weather for {City and State}";
 
 ### Day 27: September 2, 2018
 
@@ -192,7 +192,7 @@ TODO: Create a react app that gets the weather for you when you ask for it. "Mar
 
 **Today's Progress**: Countdown Timer
 
-**Thoughts:** Even though I had already done this before, it still took me a lot of effor to get this countdown timer completed. The main difference between this solution and my previous implementation is that we don't keep track of the seconds left. We actually use Date.now() to keep track of the current time in seconds. Other than the implementation was similar to what I have done in th epast.
+**Thoughts:** Even though I had already done this before, it still took me a lot of effort to get this countdown timer completed. The main difference between this solution and my previous implementation is that we don't keep track of the seconds left. We actually use Date.now() to keep track of the current time in seconds. Other than the implementation was similar to what I have done in the past.
 
 ### Day 29: September 4, 2018
 
@@ -205,3 +205,7 @@ TODO: Create a react app that gets the weather for you when you ask for it. "Mar
 **Today's Progress**: Unreal Webcam Fun
 
 **Thoughts:** This is the only exercise I didn't try to implement. I watched the tutorial, but didn't think this is something I will be doing anytime soon. A very interesting topic though!
+
+###FINAL THOUGHT
+
+Wow! I didn't think these exercises were going to be as challenging as they were. I learned so much from every single exercise. There were some ccs properties like transition and transform that I hardly use, but definitely got some practice with in this challenge. I also learned about the window's location properties like offsetTop, offsetLeft, offsetHeight, offsetWidth, etc. We used so many of the array helper methods in this challenge that I will definitely be using for my upcoming projects. There were a few other browser APIs that I didn't know about like SpeechRecognition and SpeechSynthesisUtterance APIs. These were really fun to work with and excited to possibly use in the future. One thing that the challenge could improve on (or something that I can do on my free time) is to create a single event handler on a div instead of creating separate event handlers for list of elements. This will helps save memory and helps us work with event delegation and the two methods for how events in the events DOM API are propagated.
