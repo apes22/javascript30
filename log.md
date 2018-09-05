@@ -199,3 +199,9 @@ TODO: Create a react app that gets the weather for you when you ask for it. "Mar
 **Today's Progress**: Wack A Mole
 
 **Thoughts:** This one was an easy exercise! We used the setTimeout method to implemenet the peep method which moves the mole up and down its container. There was not much new to learn from this besides first time using the parentNode.classList object for each mole.
+
+### Day 30: September 5, 2018
+
+**Today's Progress**: Unreal Webcam Fun
+
+**Thoughts:** This is the only exercise I didn't try to implement. I watched the tutorial, but didn't think this is something I will be doing anytime soon. A very interesting topic though!
